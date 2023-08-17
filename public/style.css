@@ -1,0 +1,47 @@
+/* Reset some default styling */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Styling for the header */
+header {
+    text-align: center;
+    padding: 40px;
+    background-color: #f0f0f0;
+}
+
+/* Styling for the main container */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Styling for each project section */
+.project {
+    margin-bottom: 40px;
+}
+
+.project h2 {
+    margin-bottom: 10px;
+}
+
+/* Styling for code and image sections */
+.code-section, .image-section {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+}
+
+/* Styling for images */
+.image-section img {
+    max-width: 100%;
+    height: auto;
+}
