@@ -2,7 +2,7 @@ import React from "react";
 
 const ProjectSection = () => {
     const projects = [  // Use lowercase "projects" here
-        { title: 'Project 1', description: 'Description of project 1' },
+        { title: "order-meal", description: 'Its an Order app that allows easy ordering of food with provided delivery for free' },
         { title: 'Project 2', description: 'Description of project 2' }, 
     ];
 
